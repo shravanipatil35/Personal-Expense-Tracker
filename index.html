@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Expenses Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Personal Expenses Tracker</h1>
+
+    <div class="expense-form">
+        <input type="number" id="amount" placeholder="Amount">
+        <input type="text" id="category" placeholder="Category">
+        <input type="text" id="description" placeholder="Description">
+        <input type="date" id="date">
+        <button id="addExpenseBtn">Add Expense</button>
+    </div>
+
+    <h2>Expenses</h2>
+    <table id="expenseTable">
+        <tr>
+            <th>Amount</th>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Date</th>
+        </tr>
+    </table>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #007bff;
+}
+
+.expense-form input, .expense-form button {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#addExpenseBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#addExpenseBtn:hover {
+    background-color: #005fcc;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
